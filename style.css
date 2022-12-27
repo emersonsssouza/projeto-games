@@ -89,7 +89,7 @@ section > div.container1 > img {
     position: absolute;
     z-index: 0;
     left: 200px;
-    top: 1000px;
+    top: 1010px;
     
 }
 
@@ -97,7 +97,7 @@ section > div.container2 > img {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    top: 1095px;
+    top: 1105px;
     left: 150px;
     border: 8px solid white;
 }
@@ -133,6 +133,85 @@ aside > p#saber {
     font-size: 20px;
     font-weight: 300;
     text-decoration: underline;
-    
 }
 
+article.container3 {
+    background-image: url(imagens-back/back2.jpg);
+    background-position:  left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+article.container3 > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 360px;
+    gap: 50px;
+}
+
+article.container3 > section > div.cont1 , div.cont2, div.cont3 {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 4px black;
+}
+
+div.cont1 h2, div.cont2 h2, div.cont3 h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+div.cont1 p, div.cont2 p, div.cont3 p {
+    font-size: 12px;
+    width: 300px;
+}
+
+div.controle {
+    background-image: url(imagens-back/back03.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+div.controle > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+}
+
+div.controle >  div > h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-top: 110px;
+    padding: 10px 30px;
+}
+
+div.controle >  div >  p{
+    color: white;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer.footer1 {
+    background-color: black;
+    display: flex;
+}
+
+p.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 15px 20px;
+    margin: auto;
+    border: 3px solid #5301A0;
+}
