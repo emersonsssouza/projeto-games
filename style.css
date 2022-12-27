@@ -17,14 +17,17 @@ main > header {
 main > header > ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-direction: row;
     list-style-type: none;
 }
 
 main > header > ul > li {
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-family: Arial, Helvetica, sans-serif;
+    border:  2px solid #5301A0;
+    border-radius: 5px;
 }
 
 article {
@@ -35,18 +38,18 @@ article {
     background-size: cover;
 }
 
-article > h1 {
+article > div > h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
-    padding: 10px;
+    padding-top: 81px;
 }
 
-article > ul {
+article > div > ul {
     color: white;
     display: flex;
     flex-direction: row;
@@ -54,7 +57,7 @@ article > ul {
     list-style-type: none;
 }
 
-ul > li {
+article > div > ul > li {
     padding: 0px 5px;
     text-align: center;
     font-size: 15px;
@@ -62,7 +65,7 @@ ul > li {
     font-weight: 400;
 }
 
-article > p {
+article > div >  p {
     display: block;
     margin: 0 auto;
     color: white;
@@ -74,3 +77,62 @@ article > p {
     text-align: center;
     width: 200px;
 }
+
+
+section {
+    height: 550px;
+}
+
+
+section > div.container1 > img {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    left: 200px;
+    top: 1000px;
+    
+}
+
+section > div.container2 > img {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 1095px;
+    left: 150px;
+    border: 8px solid white;
+}
+
+aside > h1 {
+   padding: 10px 20px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   color: #5301A0;
+}
+
+aside > h2 {
+    padding: 10px 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5301A0;
+}
+
+aside > p {
+    padding: 10px 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+aside > p#saber {
+    color: #5301A0;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    
+}
+
