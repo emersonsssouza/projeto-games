@@ -10,7 +10,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(imagens/good-of-war.png);
+    background-image: url(imagens/background.png);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ main div#game-titulo {
     width: auto;
     -webkit-text-stroke: 0vh;
     text-transform: uppercase;
-    background-image: url(imagens/good-of-war.png);
+    background-image: url(imagens/background.png);
     background-position: center;
     background-clip: text;
     -webkit-background-clip: text;
