@@ -108,7 +108,7 @@ main div#game-titulo {
     width: auto;
     -webkit-text-stroke: 0vh;
     text-transform: uppercase;
-    background-image: url(/imagens/good-of-war.png);
+    background-image: url(imagens/good-of-war.png);
     background-position: center;
     background-clip: text;
     -webkit-background-clip: text;
